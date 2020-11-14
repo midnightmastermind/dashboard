@@ -1,16 +1,12 @@
-import React from 'react';
-import AppElement from './components/AppElement';
+import React, { Component } from 'react';
+import Hub from './components/Hub.js'
 
-import './App.css';
-
-const App = () => {
-
-
-  return (
-    <div className="App">
-      <AppElement />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+        <Hub />
+    );
+  }
 }
 
-export default App;
+export default App
